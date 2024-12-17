@@ -17,7 +17,7 @@ The evaluation is split into two main components:
 
 Symmetry: Quantifies deviations in stress fields for symmetric input geometries.
 
-Boundary Conditions: Ensures predictions respect specified loading and support conditions.
+Stress Continuity: Stress fields should not have fluctuation but rather a continuous pattern.
 
 Physical Constraints: Monitors predictions to confirm stress values remain finite and valid.
 
@@ -26,6 +26,6 @@ Physical Constraints: Monitors predictions to confirm stress values remain finit
 Synthetic datasets were generated to simulate various input scenarios, including edge cases, to evaluate StressD's robustness and highlight limitations.
 
 # Set-up:
-We pull our testing_data from the file attached to the original StressD paper. Due to high lag when downloading and uploading these cases, we don't include the file here. But, we do include one file to display our tests with. The dataset can be found [here] (https://drive.google.com/drive/folders/1VN6MRmgE4Uey-EmU1dRk3Keow7vqMTbY).
+To re-run this code, you need to pull the testing_data attached to the original StressD paper. Due to high lag when downloading and uploading these cases, we don't include the file here.
 
 The /revsion, /testing_data, and /base_network are taken directly from the StressD project. This level of integration was with the intent to fork and make a PR. 
